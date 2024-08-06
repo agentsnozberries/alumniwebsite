@@ -1,0 +1,107 @@
+<!--
+Author: Connor Fallon
+File: involved.html
+Date: 4/1/24
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Get Involved | Theta Chi Nevada Alumni</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up to become involved with the alumnni in one or more ways and someone will follow-up with you.">
+    <link rel="stylesheet" href="css/min.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <div id="container">
+        <div id="content-wrap">
+            <header>
+
+                <button id="donate-btn"><a href="donation.html" id="donate-link">Donate</a></button>
+
+                <ul class="logo-links">
+                    <li><a href="https://facebook.com/groups/2111879215843802"><img src="images/facebook-logo.png" width="24" height="24" alt="facebook logo link"></a></li>
+                    <li><a href="https://www.linkedin.com/groups/6967375/"><img src="images/Linkedin.png" width="24" height="24" alt="Linkedin logo link"></a></li>
+                </ul>
+            </header>
+            <!-- Hero Image -->
+            <div>
+                <img src="images/banner-UNR.png" alt="University of Nevada, Reno Campus" id="banner">
+            </div>
+            <!-- Mobile Nav -->
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="Index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="donation.html">Donate</a>
+                    <a href="involved.html">Get Involved</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>    
+            <!-- Tablet, Desktop Nav -->
+
+            <nav class="tablet-desktop desktop-nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="donation.html">Donate</a></li> 
+                    <li><a href="involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav> 
+            
+            <!-- Hero Image -->
+            <img src="images/rattle-banner.jpg" alt="photo of Theta Chi Fraternity pin" id="rattle-banner">
+
+            <main>
+
+                <h3>Submit your information today, to become involved in one of the following ways</h3>
+
+                <form>
+                    <fieldset>
+                        <legend>Get Involved</legend>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" value="e.g. John" class="expand-field">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" value="e.g. Smith" class="expand-field">
+                        <label for="telephone">Phone Number:</label>
+                        <input type="text" id="telephone" name="telephone" value="e.g. (555) 555-1856" class="expand-field">
+                        <label for="graduation-date">Date of Graduation:</label>
+                        <input type="date" id="graduation-date" class="expand-field">
+                    
+                        <div>Which group(s) are you interested in?<br><i>(Select all that apply)</i></div><br>
+                        <input type="checkbox" id="alumni-association" name="group" value="Alumni Assoication">
+                        <label for="alumni-association" class="checkbox">Alumni Assoication</label><br>
+                        <input type="checkbox" id="housing-corporation" name="group" value="Housing Corporation">
+                        <label for="housing-corporation" class="checkbox">Housing Corporation</label><br>  
+                        <input type="checkbox" id="chapter-advisory" name="group" value="Chapter Advisory Board">
+                        <label for="chapter-advisory" class="checkbox">Chapter Advisory Board</label><br>
+                        <input type="checkbox" id="alumni-corp" name="group" value="Alumni Corporation">
+                        <label for="alumni-corp" class="checkbox">Alumni Corporation</label><br>
+                    </fieldset>
+                    <br>
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                </form> 
+
+            </main>
+        </div>
+
+        <footer>
+            <div id="footer-container">
+                <img src="images/shield-logo-red.png" alt="Theta Chi Shield Logo" id="shield-logo">
+                <p>&copy;&nbsp;Theta Chi Nevada 2024</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

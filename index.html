@@ -1,0 +1,94 @@
+<!--
+Author: Connor Fallon
+File: index.html
+Date: 4/1/24
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homepage | Theta Chi Nevada Alumni</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the home page of the Alumni of Beta Phi Chapter of the Theta Chi Fraternity.">
+    <link rel="stylesheet" href="css/min.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <div id="container">
+        <div id="content-wrap">
+            <header>
+
+                <button id="donate-btn"><a href="donation.html" id="donate-link">Donate</a></button>
+
+                <ul class="logo-links">
+                    <li><a href="https://facebook.com/groups/2111879215843802"><img src="images/facebook-logo.png" width="24" height="24" alt="facebook logo link"></a></li>
+                    <li><a href="https://www.linkedin.com/groups/6967375/"><img src="images/Linkedin.png" width="24" height="24" alt="Linkedin logo link"></a></li>
+                </ul>
+            </header>
+            <!-- Banner Image -->
+            <div>
+                <img src="images/banner-UNR.png" alt="University of Nevada, Reno Campus" id="banner">
+            </div>
+            <!-- Mobile Nav -->
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="Index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="donation.html">Donate</a>
+                    <a href="involved.html">Get Involved</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>    
+            <!-- Tablet, Desktop Nav -->
+
+            <nav class="tablet-desktop desktop-nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="donation.html">Donate</a></li> 
+                    <li><a href="involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav> 
+
+            <!-- Hero Image -->
+            <div id="hero">
+                <img src="images/1540347_10153852314640118_773055272_obw.jpg" alt="photo of back of fraternity member's shirt">
+                <figcaption class="welcome"><h2>Welcome to the Alumni</h2></figcaption>
+            </div>
+
+            <main>
+
+                <blockquote><div class="believe-quote">
+                    “I believe in the primacy of alma mater; in the usefulness of my fraternity, 
+                    in its influence and its accomplishments and I shall do all in my power to perpetuate its ideals, 
+                    thereby serving my God, my country and my fellow-man.”
+                </div></blockquote>
+
+            </main>
+
+            <div id="bottom-banner">
+                <img src="images/sword-banner.jpg" alt="Photo of Theta Chi Pin" id="sword-banner">
+                <div class="resolute"><h2>Resolute Men</h2></div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div id="footer-container">
+                <img src="images/shield-logo-red.png" alt="Theta Chi Shield Logo" id="shield-logo">
+                <p>&copy;&nbsp;Theta Chi Nevada 2024</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

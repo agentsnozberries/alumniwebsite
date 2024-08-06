@@ -1,0 +1,588 @@
+/* CSS Reset */
+body, header, nav, main, footer, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for mobile viewport */
+
+/* Style rule for header */
+
+header {
+    top: 0;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+img {
+    height: auto;   
+    max-width: 100%;
+    display: block; 
+}
+
+#banner {
+    padding-bottom: 0.3em;
+}
+
+/* Style Rules for the social media icon links nav bar */
+.logo-links {
+    list-style-type: none; 
+    float: right; 
+}
+
+.logo-links li {
+    display: inline-block; 
+    padding: 0 3px; 
+}
+
+.logo-links li a {
+    text-decoration: none;
+}
+
+/* Style rule for hamburger menu */
+.mobile-nav a {
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop, #menu-links, #donate-btn {
+    display: none;
+}
+
+#container {
+    position: relative;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #575757;
+    background-image: linear-gradient(#575757, #333333);
+}
+
+/* Style rules for main content */
+
+#hero {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: #fff; 
+} 
+
+.welcome {
+    position: absolute;
+    top:92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    width: 100%; 
+    opacity: 0.7;
+  }
+
+main {
+    padding: 2%; 
+}
+
+main p {
+    width: 90%;
+    margin: 0 auto; 
+}
+
+#bottom-banner {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: #fff; 
+    padding-bottom: 1em;
+    opacity: 0.4;
+} 
+
+.resolute {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    opacity: 0.7;
+  }
+
+h1, h2, h3 {
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.15em;
+}
+
+p {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+#sword {
+    max-width: 100%; 
+}
+
+hr {
+    height: 1.5px; 
+    background-color: #fff; 
+}
+
+#donations-image {
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 4%; 
+}
+
+section p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    font-style: italic;
+} 
+
+/* Mobile View: Style rules for donate button on donate.html */
+
+#donate-area {
+    text-align: center;
+}
+
+.page-donate-btn {
+    margin: 4% 0; 
+    background-color: #C60C30;
+    padding: 2% 12%;
+    border-radius: 16px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#donate-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style rules for quotes */
+
+.quote, .believe-quote {
+    text-align: center;
+    color: #B39949;
+    font-style:normal;
+    font-weight:100;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px black;
+}
+
+.focused-slogan {
+    width: 95%; 
+    text-align: center;
+    height: 1px; 
+}
+
+#give-back {
+    padding-top: 2%;
+}
+
+/* Style rules for headshot photos of alumni leadership */
+
+.headshot {
+    border-radius: 16px;
+    display: block; 
+    margin: auto;
+}
+
+/* Style rules for involved.html form elements */
+
+.checkbox {
+    display: inline;
+}
+
+/* Style rules for contact.html & involved.html form elements */
+
+fieldset, input, select, textarea {
+    margin-bottom: 2%;
+}
+
+fieldset {
+    border-color: #C60C30;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #B39949;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+    color: #fff;
+}
+
+.expand-field {
+    width: 95%; 
+    color: #808080; 
+}
+
+form div {
+    color: #fff;
+    padding-top: 1.5%;
+}
+
+form #submit {
+    margin: auto;
+    border: none;
+    display: block;
+    padding: 0.5% 5%;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+/* Style Rules for Map */
+
+#map-div {
+    padding: 4% 0 3% 0;
+    text-align: center;
+}
+
+/* Style Rules for Table */
+
+table {
+    background-image: linear-gradient(#575757, #333333);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #dddddd;
+    border-color: #B39949;
+    padding: 2%;
+    color: #fff;
+}
+
+td {
+    margin: auto; 
+}
+
+.row-title {
+    text-align: center;
+}
+
+.row-info {
+    padding-left: 6%;
+}
+
+/* Style rules for grid layout on about.html */
+
+.headshot {
+    padding: 3% 0; 
+}
+.bio {
+    color: #fff;
+    padding: 3%; 
+    border-radius: 8px;
+    background-image: linear-gradient(#575757, #333333);
+}
+
+/* Style rules for footer content */
+
+footer {
+    display: block;
+    padding-top: 4%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+} 
+
+#shield-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 700px), print {
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class*/
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+
+    /* Tablet Viewport: Style rule for Header */
+
+    #banner {
+        padding-bottom: 0;
+    }
+
+    #donate-btn {
+        display: inline-block;
+        background-color: #C60C30;
+        padding: 0.3% 1.4%;
+        border-radius: 8px;
+        font-size: 1.1em;
+        margin: 0.5% 0.5%;
+        text-decoration: none;
+    }
+
+    #donate-btn:hover, #donate-btn:focus {
+        background-color: #fff;
+    }
+
+    #donate-link:hover {
+        color: #B39949;
+    }
+
+    /* Tablet Viewport: Style Rules for the social media icon links nav bar */
+    .logo-links li {
+        padding: 0.5em;
+    }
+
+    /* Tablet Viewport: Style rules for nav area */
+    nav {
+        background-color: #C60C30; 
+        padding: 1% 0; 
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    nav li {
+        font-size: 1.5em;
+        font-family: "League Spartan", sans-serif;
+        font-weight: bold;;
+        border-right: 1px solid #fff;
+    }
+
+    nav li {
+        border-top: none;
+        display: inline-block;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.1em 0.75em;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* Tablet Viewport: Style rules for main content */
+
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.65em;
+    }
+    
+    h3 {
+        font-size: 1.45em;
+    }
+    
+    h4, p {
+        color: #fff;
+        font-size: 1.35em;
+    }
+
+    iframe {
+        padding-top: 3%; 
+        width: 600px;
+        height: 450px;  
+    }
+
+    .welcome {
+        top: 95%; 
+        font-size: 1.8em;
+    }
+
+    .resolute {
+        top: 80%; 
+        font-size: 1.8em;
+    }
+
+    /* Style rules for quotes */
+    .quote, .believe-quote {
+        font-size: 1.2em;
+    }
+
+    /* Tablet Viewport: Style rules for contact.html & involved.html form elements */
+
+    fieldset {
+        width: 75%; 
+        margin: auto; 
+    }
+
+    /* Tablet Viewport: Style Rules for Map */
+
+    #map-div {
+        padding-top: 2%;
+    }
+
+    /* Tablet Viewport: Style Rules for Table */
+
+    th {
+        font-size: 1.5em;
+    }
+
+    .row-title {
+        font-size: 1.44em;
+    }
+
+    .row-info {
+        padding-left: 2%;
+        font-size: 1.35em;
+    }
+
+    /* Tabelet Viewport: style Rules for grid layout on about.html */
+
+    .grid-container {
+        display: inline-grid;
+        justify-content: center;
+        column-gap: 20px; 
+        grid-template-columns: auto auto;
+    }
+
+    .grid-item {
+        align-content: center;
+        font-size: 1.45em;
+    }
+
+    .bio {
+        margin: 1.5%; 
+    }
+
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+
+   /* Destkop Viewport: Style rules for nav area */
+    
+    nav li {
+        font-size: 1.8em;
+        border: none;
+        padding: 0 1.5%;
+    }
+
+    nav li a:hover {
+        color: #000;
+        color: #B39949;
+        transform: scale(1.3);
+    }
+
+    #rattle-banner { 
+        width: 200%; 
+    }
+
+    #sword-banner {
+        width: 100%; 
+    }
+
+    /* Desktop Viewport: style rules for main content */
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+    
+    h3 {
+        font-size: 1.7em;
+    }
+    
+    p {
+        color: #fff;
+        font-size: 1.6em;
+    }
+    
+    .welcome {
+        font-size: 2em;
+    }
+
+    .resolute {
+        top: 85%; 
+        font-size: 2em;
+    }
+
+    /* Style rules for quotes */
+    .quote, .believe-quote {
+        font-size: 1.35em;
+    }
+
+    /* Desktop Viewport: style rules for grid layout on about.html */
+
+    .bio {
+        font-size: 1.8em;
+    }  
+
+    @media screen and (min-width: 1921px) {
+        #container {
+            width: 1920px;
+            margin: 0 auto;
+        }
+    
+        table {
+            width: 80%;
+        }
+    }
+    
+    /* Media Query for Print */
+    
+    @media print {
+        body {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+} 
